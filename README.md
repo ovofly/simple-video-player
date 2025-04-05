@@ -47,8 +47,8 @@ npm install
 复制 `.env.example` 到 `.env` 并填写相应的配置（云部署的时候不需要.env文件）：
 ```bash
 # 数据库连接字符串
-# 支持 SQL_DSN 和 PG_CONNECTION_STRING
-SQL_DSN='your_mysql_connection_string'
+# 默认使用JSON文件存储，不需要数据库配置；想要配置也行，支持 SQL_DSN 和 PG_CONNECTION_STRING
+#SQL_DSN='your_mysql_connection_string'
 ```
 
 3. 启动开发服务器：
@@ -145,4 +145,10 @@ SQL_DSN
 ## 许可证
 
 MIT 
+
+# 免责声明
+
+本程序仅供内部学习和交流使用，没有内置任何数据，请在遵守当地法律的前提下使用本站程序，对用户在使用过程中的自行维护的信息内容本站不负任何责任！
+
+This program is for internal learning and communication use only, there is no built-in data, please comply with local laws under the premise of using the site program, the user in the process of self-maintenance of the information content of this site is not responsible!
 
